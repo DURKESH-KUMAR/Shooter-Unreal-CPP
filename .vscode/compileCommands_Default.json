@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\Shooter.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\.vscode\\compileCommands_Default\\Shooter.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\Shooter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\.vscode\\compileCommands_Default\\Shooter.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\Shooter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\.vscode\\compileCommands_Default\\Shooter.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\ShooterCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\.vscode\\compileCommands_Default\\Shooter.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\ShooterCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\.vscode\\compileCommands_Default\\Shooter.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	}
+]

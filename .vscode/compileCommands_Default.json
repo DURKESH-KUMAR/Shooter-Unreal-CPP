@@ -1,5 +1,21 @@
 [
 	{
+		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\BTTask_ClearBlackboardValue.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\.vscode\\compileCommands_Default\\Shooter.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\BTTask_ClearBlackboardValue.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\.vscode\\compileCommands_Default\\Shooter.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
 		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\Gun.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
@@ -33,6 +49,22 @@
 	},
 	{
 		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\Shooter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\.vscode\\compileCommands_Default\\Shooter.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\ShooterAIController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\.vscode\\compileCommands_Default\\Shooter.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\Source\\Shooter\\ShooterAIController.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
 			"@D:\\unreal projects\\Shooter\\Shooter-Unreal-CPP\\.vscode\\compileCommands_Default\\Shooter.1.rsp"

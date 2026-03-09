@@ -1,0 +1,22 @@
+{
+ "version": "2.0.0",
+ "tasks": [
+  {
+   "label": "Build Shooter Editor",
+   "type": "shell",
+   "command": "D:/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat",
+   "args": [
+    "ShooterEditor",
+    "Win64",
+    "Development",
+    "D:/unreal projects/Shooter/Shooter-Unreal-CPP/Shooter.uproject",
+    "-waitmutex"
+   ],
+   "group": {
+    "kind": "build",
+    "isDefault": true
+   },
+   "problemMatcher": "$msCompile"
+  }
+ ]
+}

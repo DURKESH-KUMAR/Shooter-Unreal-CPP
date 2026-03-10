@@ -3,10 +3,19 @@
 #include "Blueprint/UserWidget.h"
 #include "GameFramework/PlayerController.h"
 
-
+void AShooterPlayerController::BeginPlay()
+{
+    Super::BeginPlay();
+    HUD = CreateWidget(this, HUDClass);   // removed UUserWidget*
+    if (HUD != nullptr)
+    {
+        HUD->AddToViewport();
+    }
+}
 void AShooterPlayerController::GameHasEnded(class AActor *EndGameFocus,bool bIsWinner)
 {
     Super::GameHasEnded(EndGameFocus,bIsWinner);
+    HUD->RemoveFromParent();
     UE_LOG(LogTemp,Warning,TEXT("We have finished"));
     if(bIsWinner)
     {
@@ -26,4 +35,6 @@ void AShooterPlayerController::GameHasEnded(class AActor *EndGameFocus,bool bIsW
     }
     GetWorldTimerManager().SetTimer(RestartTimer,this,&APlayerController::RestartLevel,RestartDelay);
 }
+
+
 

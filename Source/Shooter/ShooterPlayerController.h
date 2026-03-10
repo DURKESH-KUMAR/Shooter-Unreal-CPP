@@ -10,7 +10,11 @@ class SHOOTER_API AShooterPlayerController : public APlayerController
 	GENERATED_BODY()
 public:
 	virtual void GameHasEnded(class AActor *EndGameFocus=nullptr,bool bIsWinner=false)override;
+protected:
+	virtual void BeginPlay() override;
 private:
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class UUserWidget> HUDClass;
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<class UUserWidget> WinScreenClass;
 	UPROPERTY(EditAnywhere)
@@ -20,4 +24,5 @@ private:
 	float RestartDelay=5;
 
 	FTimerHandle RestartTimer;
+	UUserWidget* HUD;
 };

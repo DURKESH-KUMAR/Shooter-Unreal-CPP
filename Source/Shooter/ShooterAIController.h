@@ -10,6 +10,8 @@ class SHOOTER_API AShooterAIController : public AAIController
 	GENERATED_BODY()
 public:
 	virtual void Tick(float DeltaSeconds)override;
+	bool IsDead() const;
+	
 protected:
 	virtual void BeginPlay() override;
 private:
